@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include koolkidz *.css
+recursive-include koolkidz *.csv
+recursive-include koolkidz *.html
+recursive-include koolkidz *.ico
+recursive-include koolkidz *.js
+recursive-include koolkidz *.json
+recursive-include koolkidz *.md
+recursive-include koolkidz *.png
+recursive-include koolkidz *.py
+recursive-include koolkidz *.svg
+recursive-include koolkidz *.txt
+recursive-exclude koolkidz *.pyc
